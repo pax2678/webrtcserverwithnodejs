@@ -2,6 +2,10 @@
   "name": "webrtc-codelab",
   "version": "0.0.1",
   "description": "WebRTC codelab",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "gcloud app deploy app.yaml"
+  },
   "dependencies": {
     "node-static": "0.7.7",
     "socket.io": "1.2.0"
